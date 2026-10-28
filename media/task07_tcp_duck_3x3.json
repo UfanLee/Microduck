@@ -1,0 +1,203 @@
+{
+  "platform": "RDK X5",
+  "safe_mode": "MuJoCo simulation only; no servo commands",
+  "mujoco_version": "3.17.0",
+  "onnxruntime_version": "1.31.1",
+  "policy_backend": "RDK TCP policy server 127.0.0.1:8765",
+  "onnx_sha256": "e36332d383997d51401897734cd3e79cf5038406feddb18b4d57ecfb141daa6c",
+  "onnx_contract": [
+    [
+      1,
+      61
+    ],
+    [
+      1,
+      14
+    ]
+  ],
+  "actuator_model": "MuJoCo position actuators",
+  "formation": {
+    "rows": 3,
+    "cols": 3,
+    "ducks": 9
+  },
+  "simulation": {
+    "duration_s": 5.0,
+    "control_hz": 50.0,
+    "control_steps": 250,
+    "wall_seconds": 839.753238455,
+    "realtime_factor": 0.005954130059919901
+  },
+  "policy_batch_or_roundtrip_latency_ms": {
+    "mean": 1.520492364,
+    "p50": 1.1648055,
+    "p90": 2.8406033999999996,
+    "p99": 4.26152047,
+    "max": 14.8739
+  },
+  "video": {
+    "path": "/home/lxh20/projects/task07_tcp_duck_3x3.mp4",
+    "frames": 150,
+    "fps": 30,
+    "resolution": [
+      960,
+      540
+    ],
+    "bytes": 2135566
+  },
+  "ducks": [
+    {
+      "name": "duck0",
+      "start_xy_m": [
+        0.0,
+        -0.3
+      ],
+      "end_xy_m": [
+        0.60037313938099,
+        -0.4113519981644746
+      ],
+      "displacement_xy_m": [
+        0.60037313938099,
+        -0.11135199816447461
+      ],
+      "forward_speed_mps": 0.120074627876198,
+      "minimum_trunk_height_m": 0.1130140525459352
+    },
+    {
+      "name": "duck1",
+      "start_xy_m": [
+        0.0,
+        0.0
+      ],
+      "end_xy_m": [
+        0.5948991526073478,
+        -0.10886673283997558
+      ],
+      "displacement_xy_m": [
+        0.5948991526073478,
+        -0.10886673283997558
+      ],
+      "forward_speed_mps": 0.11897983052146957,
+      "minimum_trunk_height_m": 0.1130140525459352
+    },
+    {
+      "name": "duck2",
+      "start_xy_m": [
+        0.0,
+        0.3
+      ],
+      "end_xy_m": [
+        0.6011923026757103,
+        0.18762054832825112
+      ],
+      "displacement_xy_m": [
+        0.6011923026757103,
+        -0.11237945167174887
+      ],
+      "forward_speed_mps": 0.12023846053514206,
+      "minimum_trunk_height_m": 0.11301405254593522
+    },
+    {
+      "name": "duck3",
+      "start_xy_m": [
+        -0.32,
+        -0.3
+      ],
+      "end_xy_m": [
+        0.28077885475361225,
+        -0.41171325549680365
+      ],
+      "displacement_xy_m": [
+        0.6007788547536123,
+        -0.11171325549680367
+      ],
+      "forward_speed_mps": 0.12015577095072245,
+      "minimum_trunk_height_m": 0.1130140525459352
+    },
+    {
+      "name": "duck4",
+      "start_xy_m": [
+        -0.32,
+        0.0
+      ],
+      "end_xy_m": [
+        0.2811614786806116,
+        -0.11142642269159815
+      ],
+      "displacement_xy_m": [
+        0.6011614786806116,
+        -0.11142642269159815
+      ],
+      "forward_speed_mps": 0.12023229573612233,
+      "minimum_trunk_height_m": 0.11301405254593522
+    },
+    {
+      "name": "duck5",
+      "start_xy_m": [
+        -0.32,
+        0.3
+      ],
+      "end_xy_m": [
+        0.28078391680045245,
+        0.18823195703404438
+      ],
+      "displacement_xy_m": [
+        0.6007839168004525,
+        -0.1117680429659556
+      ],
+      "forward_speed_mps": 0.1201567833600905,
+      "minimum_trunk_height_m": 0.1130140525459352
+    },
+    {
+      "name": "duck6",
+      "start_xy_m": [
+        -0.64,
+        -0.3
+      ],
+      "end_xy_m": [
+        -0.03900833077549779,
+        -0.41189961133240244
+      ],
+      "displacement_xy_m": [
+        0.6009916692245022,
+        -0.11189961133240245
+      ],
+      "forward_speed_mps": 0.12019833384490045,
+      "minimum_trunk_height_m": 0.11301405254593522
+    },
+    {
+      "name": "duck7",
+      "start_xy_m": [
+        -0.64,
+        0.0
+      ],
+      "end_xy_m": [
+        -0.03883503925989801,
+        -0.11139254003673298
+      ],
+      "displacement_xy_m": [
+        0.601164960740102,
+        -0.11139254003673298
+      ],
+      "forward_speed_mps": 0.12023299214802038,
+      "minimum_trunk_height_m": 0.11301405254593522
+    },
+    {
+      "name": "duck8",
+      "start_xy_m": [
+        -0.64,
+        0.3
+      ],
+      "end_xy_m": [
+        -0.03879056946266791,
+        0.1886115462578717
+      ],
+      "displacement_xy_m": [
+        0.6012094305373321,
+        -0.1113884537421283
+      ],
+      "forward_speed_mps": 0.12024188610746642,
+      "minimum_trunk_height_m": 0.11301405254593522
+    }
+  ]
+}

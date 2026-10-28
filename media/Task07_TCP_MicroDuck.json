@@ -1,0 +1,67 @@
+{
+  "platform": "RDK X5",
+  "safe_mode": "MuJoCo simulation only; no servo commands",
+  "mujoco_version": "3.17.0",
+  "onnxruntime_version": "1.31.1",
+  "policy_backend": "RDK TCP policy server 127.0.0.1:8765",
+  "onnx_sha256": "e36332d383997d51401897734cd3e79cf5038406feddb18b4d57ecfb141daa6c",
+  "onnx_contract": [
+    [
+      1,
+      61
+    ],
+    [
+      1,
+      14
+    ]
+  ],
+  "actuator_model": "MuJoCo position actuators",
+  "formation": {
+    "rows": 1,
+    "cols": 1,
+    "ducks": 1
+  },
+  "simulation": {
+    "duration_s": 5.0,
+    "control_hz": 50.0,
+    "control_steps": 250,
+    "wall_seconds": 97.831617427,
+    "realtime_factor": 0.05110822177432465
+  },
+  "policy_batch_or_roundtrip_latency_ms": {
+    "mean": 0.873049504,
+    "p50": 0.8509335,
+    "p90": 1.4177589999999998,
+    "p99": 2.321236139999998,
+    "max": 3.420869
+  },
+  "video": {
+    "path": "/home/lxh20/projects/task07_tcp_duck.mp4",
+    "frames": 150,
+    "fps": 30,
+    "resolution": [
+      960,
+      540
+    ],
+    "bytes": 1125928
+  },
+  "ducks": [
+    {
+      "name": "duck0",
+      "start_xy_m": [
+        0.0,
+        0.0
+      ],
+      "end_xy_m": [
+        0.6007941310411784,
+        -0.11181126113346596
+      ],
+      "displacement_xy_m": [
+        0.6007941310411784,
+        -0.11181126113346596
+      ],
+      "forward_speed_mps": 0.12015882620823568,
+      "minimum_trunk_height_m": 0.11301405254593522
+    }
+  ]
+}
